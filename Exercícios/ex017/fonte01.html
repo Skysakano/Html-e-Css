@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            
+            16PX = 1EM dobro de tamanho
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder*/
+        }
+
+        h1{
+            /*shorthand font 
+            font-style -> fon-weight -> font-size -> font-family.
+
+            font-family: 'Work Sans', sans-serif;
+            fon-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';            
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa architecto minima sapiente non, quo sed quaerat alias, repellat voluptatem quis distinctio ratione veritatis aliquam reiciendis vero. Autem natus culpa quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reiciendis culpa veritatis maiores vero autem fugiat, sunt commodi repellat ab architecto minima, quaerat alias aliquid quae voluptates atque praesentium unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, minima. Quia assumenda quidem veritatis odit facere, fugit provident quisquam atque deleniti doloremque autem doloribus voluptate, consequatur adipisci vel quae! Pariatur.</p>
+    <h2>Subitítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis optio harum atque similique perspiciatis eveniet ullam iusto saepe explicabo, aliquid, modi placeat incidunt minima blanditiis praesentium quos odit cumque natus?</p>
+</body>
+</html>
